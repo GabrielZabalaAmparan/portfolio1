@@ -338,9 +338,7 @@ header {
     }
 }
 
-.picture {
-    background-image: url(https://www.pexels.com/photo/black-and-gray-laptop-computer-546819/);
-     }
+
 .image-service {
     min-width: 800px;
        display: flex;
