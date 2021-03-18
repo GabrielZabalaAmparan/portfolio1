@@ -327,6 +327,7 @@ header {
 
 @media (min-width: 800px) {
     .services {
+        background-image: image(pic-11.png);
         display: flex;
         max-width: 1000px;
         margin-left: auto;
