@@ -401,7 +401,8 @@ header {
 }
 
 .portfolio__item {
-
+width: 14em;
+margin-left: 1.5em;
     overflow: hidden;
 }
 
