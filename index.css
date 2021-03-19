@@ -328,7 +328,7 @@ header {
 
 @media (min-width: 800px) {
     .services {
-        opacity: 0.25;
+        
         display: flex;
         max-width: 1000px;
         margin-left: auto;
@@ -341,6 +341,7 @@ header {
 }
 
 
+/* ABOUT ME SECTION */
 
     
 .about-me {
