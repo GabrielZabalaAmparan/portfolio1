@@ -11,7 +11,11 @@
  <!-- CSS link -->
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="index.css">
-
+<!-- Bootstrap -->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </head>
     <body>
 
@@ -88,57 +92,33 @@
             <h2 class="section__title section__title--work">My work</h2>
             <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/tinDog.jpg" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/refresco.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/eva.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/boston.jpg" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/pic-7.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 06 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/pic-8.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 07 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/pic-9.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/pic-10.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="images/pic-11.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="images/pic-12.png" alt="" class="portfolio__img">
-                </a>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/tinDog.jpg" class="d-block w-100 pictures" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/refresco.jpg" class="d-block w-100 refresco" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/eva.jpg" class="d-block w-100 pictures pictures" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            
         </section>
 
 
