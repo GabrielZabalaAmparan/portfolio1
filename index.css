@@ -401,7 +401,7 @@ header {
 }
 
 .portfolio__item {
-width: 20em;
+
     overflow: hidden;
 }
 
@@ -409,8 +409,7 @@ width: 20em;
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-    width: 17em;
-    height: 10em;
+
 }
 
 .portfolio__item:focus {
