@@ -387,11 +387,20 @@ header {
 
 /* My Work */
 
+#work {
+    padding-left: 48px;
+
+}
+    
+
+
+
+    
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
-    padding-left: 48px;
+    
 }
 
 .portfolio {
