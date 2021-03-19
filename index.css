@@ -387,14 +387,6 @@ header {
 
 /* My Work */
 
-#work {
-    padding-left: 48px;
-
-}
-    
-
-
-
     
 .my-work {
     background-color: var(--clr-dark);
@@ -429,6 +421,18 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
+
+
+
+
+
+.portfolio__img {
+    width: 17em;
+    height: 10em;
+}
+
+
+
 
 /* Footer */
 
