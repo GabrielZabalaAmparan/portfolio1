@@ -395,39 +395,15 @@ header {
     
 }
 
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      margin-left: 18px;
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
 }
 
-.portfolio__item {
-
-    overflow: hidden;
-}
-
-.portfolio__img {
-    transition:
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-
-}
-
-.portfolio__item:focus {
-    position: relative;
-    z-index: 2;
-}
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
-    opacity: .5;
-}
-
-
-#images {
-  width: 17em;
-  height: 12em;
+.refresco {
+  height: 200px;
+  width: 200px;
 }
 
 
